@@ -2,11 +2,11 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY Asmaa1 .
+COPY ahmed2 .
 
-RUN javac Asmaa1
+RUN javac ahmed2
  
-CMD java Asmaa1
+CMD java ahmed2
 
 
 
