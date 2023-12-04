@@ -17,5 +17,10 @@ jobs:
 
       # - name: 'Testing Printing'
       #   run: echo Ahmed
-      - name: 'Printing folder contents'
+      - name: 'Before'
+        run: ls
+
+      - uses: actions/checkout@v3
+
+      - name: 'After'
         run: ls
