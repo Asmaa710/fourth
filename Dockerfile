@@ -2,11 +2,11 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY ahmed2 .
+COPY ahmed .
 
-RUN javac ahmed2
+RUN javac ahmed
  
-CMD java ahmed2
+CMD java ahmed
 
 
 
